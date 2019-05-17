@@ -15,6 +15,27 @@ public class Student {
     
     private String email;
     private String address;
+    
+    private int age;
+
+    /**
+     * Get the value of age
+     *
+     * @return the value of age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * Set the value of age
+     *
+     * @param age new value of age
+     */
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 
     /**
      * Get the value of email
